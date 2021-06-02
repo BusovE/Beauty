@@ -1,3 +1,6 @@
+@import url("./css/header.css");
+@import url("./css/sale-block.css");
+
 *{
   box-sizing: border-box;
 }
@@ -15,6 +18,7 @@ body{
   --color-h1: #F13C6E;
   --color-number: #000000;
   --color-border-defalt: #F13C6E;
+  --color-h2: #ffffff;
 }
 
 .container{
@@ -41,74 +45,6 @@ h1{
   padding-right: 172px;
 }
 
-.top-header{
-  background-color: var(--color-background);
-  padding: 17px 0;
-}
-
-.link-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0;
-}
-
-.link-header li a{
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  margin-right: 30px;
-}
-
-.logo{
-  display: flex;
-  flex-direction: row;
-}
-
-.logo-header{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.logo-search{
-  position: relative;
-  padding-right: 93px;
-}
-
-
-.input_search{
-  background-color: var(--color-background);
-  border-radius: 40px;
-  min-width: 250px;
-  min-height: 40px;
-  border: none;
-  outline: none;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  padding-left: 55px;
-}
-
-.search-icon{
-  position: absolute;
-  display: block;
-  top: 25%;
-  left: 20px;
-}
-
-.callback-number{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.phone-number{
-  font-size: 1.6rem;
-  line-height: 1.9rem;
-  color: var(--color-number);
-  padding-right: 40px;
-}
-
 button{
   padding: 10px 27px;
   border-radius: 40px;
@@ -116,12 +52,4 @@ button{
   font-size: 1.4rem;
   line-height: 1.6rem;
   cursor: pointer;
-}
-
-.button-callback{
-  border: 2px solid var(--color-border-defalt);
-}
-
-.navigation_link{
-  border-top: 1px solid var(--color-background);
 }
