@@ -1,5 +1,7 @@
 @import url("./css/header.css");
 @import url("./css/sale-block.css");
+@import url("./css/sale-products.css");
+@import url("./css/info-products.css");
 
 *{
   box-sizing: border-box;
@@ -18,7 +20,9 @@ body{
   --color-h1: #F13C6E;
   --color-number: #000000;
   --color-border-defalt: #F13C6E;
+  --color-button-sale: #F13C6E;
   --color-h2: #ffffff;
+  --color-cards: #ffffff;
 }
 
 .container{
@@ -43,6 +47,10 @@ h1{
   color: var(--color-h1);
   padding-left: 20px;
   padding-right: 172px;
+}
+
+h2,h3,h4,p{
+  margin: 0;
 }
 
 button{
