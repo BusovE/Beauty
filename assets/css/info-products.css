@@ -1,0 +1,66 @@
+.block_info-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-bonus-cards {
+  min-width: 540px;
+  background-color: var(--color-border-defalt);
+  display: flex;
+}
+
+.bonus-card {
+  padding-left: 40px;
+  padding-bottom: 35px;
+}
+
+.text-bonus {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: var(--color-cards);
+  padding: 35px 0 25px;
+}
+
+.info-bonus {
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--color-cards);
+  max-width: 231px;
+  padding: 0 0 25px 0;
+}
+
+.input_email {
+  min-width: 225px;
+  padding: 9px 0 9px 25px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.img_bonus-card {
+  padding: 36px 35px 0 60px;
+}
+
+.button_map-shop {
+  color: var(--color-cards);
+  border: 2px solid var(--color-cards);
+}
+
+.div_card-impuls {
+  background-color: var(--color-cards);
+  padding: 35px 65px 35px 60px;
+  display: inline-block;
+}
+
+.cards-impuls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 99px;
+}

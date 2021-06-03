@@ -1,0 +1,58 @@
+.sale-products {
+  background-color: var(--color-background);
+}
+
+.block-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.div-cards {
+  max-width: 255px;
+  background-color: var(--color-cards);
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: var(--color-number);
+  padding: 80px 0 38px;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: normal;
+  color: var(--color-number);
+
+  padding: 0 0 20px 0;
+  max-width: 195px;
+}
+
+.img-card {
+  padding: 25px 0 20px 0;
+}
+
+.text-cost {
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05em;
+  padding-bottom: 20px;
+  color: var(--color-number);
+}
+
+.button-buy {
+  background-color: var(--color-button-sale);
+  min-width: 130px;
+  border: 2px solid transparent;
+  color: var(--color-cards);
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
