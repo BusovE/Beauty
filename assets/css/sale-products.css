@@ -47,12 +47,3 @@ h4 {
   padding-bottom: 20px;
   color: var(--color-number);
 }
-
-.button-buy {
-  background-color: var(--color-button-sale);
-  min-width: 130px;
-  border: 2px solid transparent;
-  color: var(--color-cards);
-  font-weight: normal;
-  letter-spacing: 0.05em;
-}

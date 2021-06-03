@@ -66,11 +66,6 @@
   padding-right: 40px;
 }
 
-
-.button-callback{
-  border: 2px solid var(--color-border-defalt);
-}
-
 .navigation_link{
   border-top: 1px solid var(--color-background);
 }

@@ -1,0 +1,67 @@
+.button-callback {
+  border: 2px solid var(--color-border-defalt);
+  transition: 0.3s;
+}
+
+.button-callback:hover {
+  border: 2px solid var(--color-border-hover);
+  background-color: var(--color-border-defalt);
+  color: #ffffff;
+}
+
+.button-callback:active {
+  opacity: 0.8;
+}
+
+.button_about {
+  border: 2px solid var(--color-background);
+  color: var(--color-background);
+  min-width: 170px;
+  transition: 0.3s;
+}
+
+.button_about:hover {
+  border: 2px solid transparent;
+  color: var(--color-defalt);
+  background-color: #ffffff;
+}
+
+.button_about:active {
+  opacity: 0.7;
+}
+
+.button-buy {
+  background-color: var(--color-button-sale);
+  min-width: 130px;
+  border: 2px solid transparent;
+  color: var(--color-cards);
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+.button-buy:hover {
+  background-color: var(--color-background);
+  color: var(--color-defalt);
+}
+
+.button-buy:active {
+  opacity: 0.7;
+  transform: translateX(2px) translateY(2px);
+}
+
+.button_map-shop {
+  color: var(--color-cards);
+  border: 2px solid var(--color-cards);
+  transition: 0.5s all;
+}
+
+.button_map-shop:hover {
+  color: var(--color-defalt);
+  border: 2px solid var(--color-defalt);
+  background-color: #ffffff;
+}
+
+.button_map-shop:active {
+  opacity: 0.7;
+}

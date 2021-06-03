@@ -1,4 +1,4 @@
-.div_footer_block{
+.div_footer_block {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,15 +6,15 @@
   padding-bottom: 38px;
 }
 
-.nav_li-sicial{
+.nav_li-sicial {
   display: flex;
 }
 
-.nav_li-sicial li{
+.nav_li-sicial li {
   margin-right: 20px;
 }
 
-address{
+address {
   font-size: 1.4rem;
   line-height: 1.6rem;
   font-style: normal;
@@ -22,13 +22,26 @@ address{
   padding-left: 50px;
 }
 
-.block_footer-end{
+.block_footer-end {
   background-color: var(--color-background);
 }
 
-.div_info-shop{
+.div_info-shop {
   display: flex;
   justify-content: space-between;
   color: var(--color-footer-categor);
   padding: 25px 0;
+}
+
+.icon-youtube path,
+.icon-youtube circle{
+  transition: all 0.8s ease;
+}
+
+.icon-youtube:hover path{
+  fill: var(--color-background);
+}
+
+.icon-youtube:hover circle{
+  stroke: var(--color-background);
 }
